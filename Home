@@ -186,13 +186,13 @@ body {
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-1 col-md-2 my-1 text-left"> </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 my-1 text-left"> </div>
         <div class="col my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum. Ne nam mutat mazim, cum ne lorem nulla indoctum. Quot electram eu has, prima possit corrumpit vix eu. Mel id facete eirmod, vis ne vocibus iracundia sadipscing. Ei saperet tacimates eos, est illud fierent te. At commune concludaturque sea.<br><br>
 
 Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
         </div>
-        <div class="col-sm-1 col-md-1 my-1 text-left d-none d-sm-block"></div>
+        <div class="col-sm-1 col-md-1 col-lg-2 my-1 text-left d-none d-sm-block"></div>
       </div>
       <!-- OUR STORY END --> 
       
@@ -203,126 +203,150 @@ Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, hab
         </div>
       </div>
       
-      <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+      <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
       
-            <div class="row">
-        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
-        <div class="col-6 col-sm-3 my-1 text-left">
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-        <div class="col-6 col-sm-3 my-1">
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
           <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
         </div>
-          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
       </div>
+      
+            
+            <div class="row my-2">
+        <div class="col-6 col-sm-3 col-lg-4 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 col-lg-2 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 col-lg-2  my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3 col-lg-4"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+      
+      
       
       <!-- OUR PEOPLE END --> 
       
@@ -333,7 +357,7 @@ Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, hab
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-1 col-md-2 my-1 text-left"> </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 my-1 text-left"> </div>
         <div class="col my-1 text-left">
           <p class="p-1"><span class="fw-bold purple">Question</span><br>
 
@@ -349,7 +373,7 @@ Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, hab
 Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
         </div>
           
-        <div class="col-sm-1 col-md-1 my-1 text-left d-none d-sm-block"></div>
+        <div class="col-sm-1 col-md-1 col-lg-3 my-1 text-left d-none d-sm-block"></div>
       </div>
       <!-- OUR STORY END --> 
       
