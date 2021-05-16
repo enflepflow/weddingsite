@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/wgk3xbt.css">
 <style>
 body {
-	font-family: "filson soft", serif;
+	font-family: "filson soft", sans-serif;
 	font-style: normal;
 	font-size: 16px;
 	color: #685f5d;
@@ -37,9 +37,11 @@ body {
 }
 .head-overlay {
 	height: auto;
-	background-size: 2000px;
-	background-position: center;
+	background-size: 2500px;
+	background-position: 55% 70%;
 	background-image: url('https://i.imgur.com/2JRfdA7.png');
+    background-repeat: no-repeat;
+    opacity: .75;
 }
 .filson {
 	font-family: "alda", serif;
@@ -66,28 +68,28 @@ body {
 	background-color: #a21f23;
 	border-color: #a21f23;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 575.98px) {
   .head-image {
 	width: 100%;
-	background-size: 500px;
-	background-position: center;
+	background-size: 600px;
+	background-position: 40% 5%;
 	background-image: url('https://i.imgur.com/Jy2Kb4Q.png');
 	background-repeat: no-repeat;
 }
 .head-overlay {
 	height: auto;
-	background-size: 1000px;
-	background-position: center;
+	background-size:2000px;
+	background-position: 60% 0%;
 	background-image: url('https://i.imgur.com/2JRfdA7.png');
+    background-repeat: no-repeat;
 }
 }
 </style>
 <title>Repko &amp; Vohs Wedding</title>
 </head>
-<body>
-<div class="container-fluid head-image">
+<body class="head-image">
+<div class="container-fluid head-overlay">
   <div class="container-fluid">
-    <div class="container-fluid head-overlay" style="height:2000px;">
       <div class="row flex d-flex justify-content-center sticky-top">
         <nav>
           <ul class="nav justify-content-center navbar-custom navbar-brand">
@@ -98,55 +100,259 @@ body {
             <li class="nav-item"> <a class="nav-link" href="#">RSVP</a> </li>
           </ul>
         </nav>
-        <div class="row" style="height:400px;">
+        <div class="row d-none d-sm-block" style="height:420px;">
+          <div class="col"></div>
+        </div>
+        <div class="row d-xs-block d-sm-none" style="height:300px;">
           <div class="col"></div>
         </div>
       </div>
+        
+        <!-- DATE AND TIME BADGE -->
       <div class="row">
-        <div class="col"></div>
-        <div class="col">
+        <div class="col d-none d-sm-block"></div>
+        <div class="col d-none d-sm-block">
           <p style="margin-bottom:">FOR THE WEDDING OF</p>
           <h1 class="alda my-0 purple" style="line-height:1px;">Ian<span class="Milonguita red" style="font-size:80px;">&amp;</span> Christa <br>
             <span style="line-height:1px;">October 30, 2021</span></h1>
         </div>
       </div>
+      <div class="row mt-2">
+        <div class="col text-center d-xs-block d-sm-none">
+          <p style="margin-bottom:">FOR THE WEDDING OF</p>
+          <h1 class="alda my-0 purple" style="line-height:1px;">Ian<span class="Milonguita red" style="font-size:80px;">&amp;</span> Christa <br>
+            <span style="line-height:1px;">October 30, 2021</span></h1>
+        </div>
+      </div>
+        
+        <!-- BUTTONS -->
       <div class="row my-5">
-        <div class="col-7 d-flex justify-content-end py-5">
+        <div class="col-7 d-flex py-5 justify-content-end d-none d-sm-flex">
           <button type="button" class="btn btn-outline-primary" style="min-width: 150px;">RSVP</button>
         </div>
-        <div class="col py-5">
+        <div class="col py-5 d-flex d-none d-sm-flex">
           <button type="button" class="btn btn-outline-primary" style="min-width: 150px;">Wedding Schedule</button>
         </div>
       </div>
-      <div class="row">
-        <div class="col-7 d-flex justify-content-end my-5">
+    <div class="row my-3 text-center">
+        <div class="col py-1 m-auto d-xs-block d-sm-none">
+          <button type="button" class="btn btn-outline-primary" style="width:220px;">RSVP</button>
+        </div>
+        <div class="col-12 py-1 m-auto d-xs-block d-sm-none">
+          <button type="button" class="btn btn-outline-primary" style="width:220px;">Wedding Schedule</button>
+        </div>
+      </div>
+        
+        <!-- LOCATIONS -->
+      <div class="row my-5">
+        <div class="col-7 d-flex justify-content-end my-1 d-none d-sm-inline-flex">
           <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1n8UJBYeI4FDCP7PU_CScy1MiDlKisvZ3" width="320" height="240"></iframe>
         </div>
-        <div class="col my-5">
+        <div class="col my-1 d-none d-sm-inline-block">
           <h3 class="alda purple p-1">Local Area Locations</h3>
-          <p class="p-1"><span class="fw-bold purple">Wedding Hotel</span><br>
+          <p class="px-1"><span class="fw-bold purple">Wedding Hotel</span><br>
+            1737 Sumneytown Pike
+            Lansdale, PA 19446</p>
+            <p class="px-1"><span class="fw-bold purple">Parking (Upper Salford Park)</span><br>
+            877 Salford Station Road
+            Schwenksville, PA 19473</p>
+          <p class="px-1"><span class="fw-bold purple">Venue/Home</span><br>
+            877 Salford Station Road
+            Schwenksville, PA 19473</p>
+        </div>
+      </div>
+              <div class="row text-center">
+        <div class="col-12 d-flex my-5 d-xs-flex d-sm-none justify-content-center">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1n8UJBYeI4FDCP7PU_CScy1MiDlKisvZ3" width="320" height="240"></iframe>
+        </div>
+        <div class="col my-1 d-xs-block d-sm-none">
+          <h3 class="alda purple p-1">Local Area Locations</h3>
+          <p class="px-1"><span class="fw-bold purple">Wedding Hotel</span><br>
             1737 Sumneytown Pike<br>
             Lansdale, PA 19446</p>
-          <p class="p-1"><span class="fw-bold purple">Venue/Home</span><br>
+            <p class="px-1"><span class="fw-bold purple">Parking (Upper Salford Park)</span><br>
+            877 Salford Station Road<br>
+            Schwenksville, PA 19473</p>
+          <p class="px-1"><span class="fw-bold purple">Venue/Home</span><br>
             877 Salford Station Road<br>
             Schwenksville, PA 19473</p>
         </div>
       </div>
+        
+        <!-- OUR STORY -->
       <div class="row">
         <div class="col mt-5 text-center">
-          <h3 class="alda purple p-1" id="Our_Story">Our Story</h3>
+          <h3 class="alda purple p-1 pt-4" id="Our_Story">Our Story</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-3 my-1 text-left"> </div>
+        <div class="col-sm-1 col-md-2 my-1 text-left"> </div>
         <div class="col my-1 text-left">
           <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum. Ne nam mutat mazim, cum ne lorem nulla indoctum. Quot electram eu has, prima possit corrumpit vix eu. Mel id facete eirmod, vis ne vocibus iracundia sadipscing. Ei saperet tacimates eos, est illud fierent te. At commune concludaturque sea.<br><br>
 
 Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
         </div>
-        <div class="col-3 my-1 text-left"></div>
+        <div class="col-sm-1 col-md-1 my-1 text-left d-none d-sm-block"></div>
       </div>
-    </div>
+      <!-- OUR STORY END --> 
+      
+              <!-- Our People -->
+      <div class="row">
+        <div class="col mt-5 text-center">
+          <h3 class="alda purple p-1 p-4" id="Our_People">Our People</h3>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+            <div class="row">
+        <div class="col-6 col-sm-3 d-block d-sm-flex justify-content-end" style="text-align: right;"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+        <div class="col-6 col-sm-3 my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+        <div class="col-6 col-sm-3 my-1">
+          <p class="p-1 font-right" style="text-align: right;">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum.<br></p>
+        </div>
+          <div class="col-6 col-sm-3"><img style="width: 100px; height:100px;" src="https://picsum.photos/100"/></div>
+      </div>
+      
+      <!-- OUR PEOPLE END --> 
+      
+              <!-- OUR STORY -->
+      <div class="row">
+        <div class="col mt-5 text-center">
+          <h3 class="alda purple p-1 p-4" id="FAQs">FAQ</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 col-md-2 my-1 text-left"> </div>
+        <div class="col my-1 text-left">
+          <p class="p-1"><span class="fw-bold purple">Question</span><br>
+
+Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
+            <p class="p-1"><span class="fw-bold purple">Question</span><br>
+
+Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
+            <p class="p-1"><span class="fw-bold purple">Question</span><br>
+
+Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
+            <p class="p-1"><span class="fw-bold purple">Question</span><br>
+
+Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
+        </div>
+          
+        <div class="col-sm-1 col-md-1 my-1 text-left d-none d-sm-block"></div>
+      </div>
+      <!-- OUR STORY END --> 
+      
   </div>
 </div>
 
