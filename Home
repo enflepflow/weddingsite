@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.typekit.net/wgk3xbt.css">
+<style>
+body {
+	font-family: "filson soft", serif;
+	font-style: normal;
+	font-size: 16px;
+	color: #685f5d;
+}
+.navbar-custom {
+	font-family: "alda", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+}
+.navbar-custom a {
+	color: #555555;
+	background-color: white;
+}
+.nav-item:hover {
+	color: red;
+}
+.head-image {
+	width: 100%;
+	background-size: 1000px;
+	background-position: top;
+	background-image: url('https://i.imgur.com/Jy2Kb4Q.png');
+	background-repeat: no-repeat;
+}
+.head-overlay {
+	height: auto;
+	background-size: 2000px;
+	background-position: center;
+	background-image: url('https://i.imgur.com/2JRfdA7.png');
+}
+.filson {
+	font-family: "alda", serif;
+}
+.alda {
+	font-family: "alda", serif;
+	font-weight: 100;
+}
+.Milonguita {
+	font-family: "Milonguita", serif;
+	font-weight: 100;
+}
+.purple {
+	color: #6b6197;
+}
+.red {
+	color: #a21f23;
+}
+.btn-outline-primary {
+	border-color: #a21f23;
+	color: #a21f23;
+}
+.btn-outline-primary:hover {
+	background-color: #a21f23;
+	border-color: #a21f23;
+}
+@media only screen and (max-width: 420px) {
+  .head-image {
+	width: 100%;
+	background-size: 500px;
+	background-position: center;
+	background-image: url('https://i.imgur.com/Jy2Kb4Q.png');
+	background-repeat: no-repeat;
+}
+.head-overlay {
+	height: auto;
+	background-size: 1000px;
+	background-position: center;
+	background-image: url('https://i.imgur.com/2JRfdA7.png');
+}
+}
+</style>
+<title>Repko &amp; Vohs Wedding</title>
+</head>
+<body>
+<div class="container-fluid head-image">
+  <div class="container-fluid">
+    <div class="container-fluid head-overlay" style="height:2000px;">
+      <div class="row flex d-flex justify-content-center sticky-top">
+        <nav>
+          <ul class="nav justify-content-center navbar-custom navbar-brand">
+            <li class="nav-item"> <a class="nav-link" href="#">When<span class="Milonguita red" style="font-size:30px;line-height:0px;">&amp;</span>Where</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Our Story</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Our People</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Registry</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">RSVP</a> </li>
+          </ul>
+        </nav>
+        <div class="row" style="height:400px;">
+          <div class="col"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <p style="margin-bottom:">FOR THE WEDDING OF</p>
+          <h1 class="alda my-0 purple" style="line-height:1px;">Ian<span class="Milonguita red" style="font-size:80px;">&amp;</span> Christa <br>
+            <span style="line-height:1px;">October 30, 2021</span></h1>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-7 d-flex justify-content-end py-5">
+          <button type="button" class="btn btn-outline-primary" style="min-width: 150px;">RSVP</button>
+        </div>
+        <div class="col py-5">
+          <button type="button" class="btn btn-outline-primary" style="min-width: 150px;">Wedding Schedule</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7 d-flex justify-content-end my-5">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1n8UJBYeI4FDCP7PU_CScy1MiDlKisvZ3" width="320" height="240"></iframe>
+        </div>
+        <div class="col my-5">
+          <h3 class="alda purple p-1">Local Area Locations</h3>
+          <p class="p-1"><span class="fw-bold purple">Wedding Hotel</span><br>
+            1737 Sumneytown Pike<br>
+            Lansdale, PA 19446</p>
+          <p class="p-1"><span class="fw-bold purple">Venue/Home</span><br>
+            877 Salford Station Road<br>
+            Schwenksville, PA 19473</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-5 text-center">
+          <h3 class="alda purple p-1" id="Our_Story">Our Story</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 my-1 text-left"> </div>
+        <div class="col my-1 text-left">
+          <p class="p-1">Lorem ipsum dolor sit amet, vim et postea vidisse voluptatum. Ne nam mutat mazim, cum ne lorem nulla indoctum. Quot electram eu has, prima possit corrumpit vix eu. Mel id facete eirmod, vis ne vocibus iracundia sadipscing. Ei saperet tacimates eos, est illud fierent te. At commune concludaturque sea.<br><br>
+
+Cum petentium concludaturque et, ex case expetenda nam. Duis alterum cu nec, habemus blandit vel at, pri accusamus incorrupte appellantur ex. Quod summo conceptam ex duo. Ridens persecuti liberavisse eos cu, vim no idque nemore suscipit. Eum at porro legimus.</p>
+        </div>
+        <div class="col-3 my-1 text-left"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript; choose one of the two! --> 
+
+<!-- Option 1: Bootstrap Bundle with Popper --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
+
+<!-- Option 2: Separate Popper and Bootstrap JS --> 
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
