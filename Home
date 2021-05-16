@@ -38,10 +38,9 @@ body {
 .head-overlay {
 	height: auto;
 	background-size: 2500px;
-	background-position: 55% 70%;
+	background-position: top;
 	background-image: url('https://i.imgur.com/2JRfdA7.png');
     background-repeat: no-repeat;
-    opacity: .75;
 }
 .filson {
 	font-family: "alda", serif;
@@ -93,9 +92,9 @@ body {
       <div class="row flex d-flex justify-content-center sticky-top">
         <nav>
           <ul class="nav justify-content-center navbar-custom navbar-brand">
-            <li class="nav-item"> <a class="nav-link" href="#">When<span class="Milonguita red" style="font-size:30px;line-height:0px;">&amp;</span>Where</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Our Story</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Our People</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Locations">When<span class="Milonguita red" style="font-size:30px;line-height:0px;">&amp;</span>Where</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Our_Story">Our Story</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Our_People">Our People</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#">Registry</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#">RSVP</a> </li>
           </ul>
@@ -149,7 +148,7 @@ body {
           <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1n8UJBYeI4FDCP7PU_CScy1MiDlKisvZ3" width="320" height="240"></iframe>
         </div>
         <div class="col my-1 d-none d-sm-inline-block">
-          <h3 class="alda purple p-1">Local Area Locations</h3>
+          <h3 class="alda purple p-1" id="Locations">Locations</h3>
           <p class="px-1"><span class="fw-bold purple">Wedding Hotel</span><br>
             1737 Sumneytown Pike
             Lansdale, PA 19446</p>
